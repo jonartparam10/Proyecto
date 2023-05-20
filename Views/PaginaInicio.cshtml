@@ -1,0 +1,40 @@
+﻿@using Umbraco.Cms.Web.Common.PublishedModels;
+@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage<ContentModels.PaginaInicio>
+@using ContentModels = Umbraco.Cms.Web.Common.PublishedModels;
+@{
+	Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi página</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <ul class="menu">
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Página 1</a></li>
+        <li><a href="#">Página 2</a></li>
+        <li><a href="#">Página 3</a></li>
+      </ul>
+    </aside>
+    <main class="content">
+      <h1 class="h1">Bienvenido a mi página</h1>
+      <p>Este es el contenido principal de la página.</p>
+      <div class="image-box">
+        <img src="ruta-a-imagen-1.jpg" alt="Imagen 1">
+        <img src="ruta-a-imagen-2.jpg" alt="Imagen 2">
+        <img src="ruta-a-imagen-3.jpg" alt="Imagen 3">
+      </div>
+    </main>
+  </div>
+</body>
+</html>
+
+
